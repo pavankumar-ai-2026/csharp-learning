@@ -1,0 +1,189 @@
+# Day 01 - Introduction to C# and .NET
+
+## Topics Covered
+
+- GitHub Account Setup
+- Git Installation
+- Git Configuration
+- Creating a .NET Console Application
+- Running a C# Program
+- Program Structure
+- Variables
+- Console Output
+- Git Commit and Push
+- .gitignore
+
+---
+
+# What is .NET?
+
+.NET is a software development platform developed by Microsoft to build:
+
+- Console Applications
+- Web Applications
+- Desktop Applications
+- Mobile Applications
+- Cloud Applications
+- APIs
+
+---
+
+# What is C#?
+
+C# (C Sharp) is an object-oriented programming language developed by Microsoft.
+
+It is mainly used with the .NET platform.
+
+---
+
+# Creating a Console Application
+
+Command:
+
+```cmd
+dotnet new console -n FirstApp
+```
+
+Run the application:
+
+```cmd
+dotnet run
+```
+
+---
+
+# Project Structure
+
+```
+FirstApp
+│
+├── Program.cs
+├── FirstApp.csproj
+└── obj
+```
+
+### Program.cs
+
+The entry point of the application.
+
+### FirstApp.csproj
+
+Contains project configuration such as the target framework and SDK.
+
+### obj
+
+Automatically generated build files.
+
+---
+
+# Console.WriteLine()
+
+Used to print output to the console.
+
+Example:
+
+```csharp
+Console.WriteLine("Hello World");
+```
+
+---
+
+# Variables
+
+A variable is a named memory location used to store data.
+
+Example:
+
+```csharp
+string name = "Pavan";
+int experience = 2;
+```
+
+---
+
+# String Interpolation
+
+Instead of:
+
+```csharp
+Console.WriteLine("Name: " + name);
+```
+
+Use:
+
+```csharp
+Console.WriteLine($"Name: {name}");
+```
+
+This is easier to read and commonly used in C#.
+
+---
+
+# .gitignore
+
+Used to prevent unnecessary files from being tracked by Git.
+
+Example:
+
+```
+bin/
+obj/
+.vs/
+```
+
+---
+
+# Git Commands Learned
+
+Check status:
+
+```cmd
+git status
+```
+
+Add files:
+
+```cmd
+git add .
+```
+
+Commit:
+
+```cmd
+git commit -m "Day 1: First C# Application"
+```
+
+Push:
+
+```cmd
+git push
+```
+
+---
+
+# Interview Questions
+
+1. What is .NET?
+2. What is C#?
+3. What is Program.cs?
+4. What is a .csproj file?
+5. What is Console.WriteLine()?
+6. What is a variable?
+7. What is string interpolation?
+8. What is .gitignore?
+9. What is git commit?
+10. What is git push?
+
+---
+
+# Summary
+
+Today I learned:
+
+- GitHub basics
+- Git commands
+- Creating a .NET console project
+- Running a C# application
+- Variables
+- Console output
+- Git workflow
