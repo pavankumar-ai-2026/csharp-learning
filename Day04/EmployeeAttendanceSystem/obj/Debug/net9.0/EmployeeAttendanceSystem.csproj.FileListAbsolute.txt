@@ -1,0 +1,15 @@
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\bin\Debug\net9.0\EmployeeAttendanceSystem.exe
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\bin\Debug\net9.0\EmployeeAttendanceSystem.deps.json
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\bin\Debug\net9.0\EmployeeAttendanceSystem.runtimeconfig.json
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\bin\Debug\net9.0\EmployeeAttendanceSystem.dll
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\bin\Debug\net9.0\EmployeeAttendanceSystem.pdb
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.AssemblyInfoInputs.cache
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.AssemblyInfo.cs
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.csproj.CoreCompileInputs.cache
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.sourcelink.json
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.dll
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\refint\EmployeeAttendanceSystem.dll
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.pdb
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\EmployeeAttendanceSystem.genruntimeconfig.cache
+D:\Learning\csharp-learning\Day04\EmployeeAttendanceSystem\obj\Debug\net9.0\ref\EmployeeAttendanceSystem.dll
