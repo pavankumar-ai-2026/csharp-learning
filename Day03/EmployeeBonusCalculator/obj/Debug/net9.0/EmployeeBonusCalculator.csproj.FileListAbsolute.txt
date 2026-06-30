@@ -1,0 +1,15 @@
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.AssemblyInfoInputs.cache
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.AssemblyInfo.cs
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.csproj.CoreCompileInputs.cache
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.sourcelink.json
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\bin\Debug\net9.0\EmployeeBonusCalculator.exe
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\bin\Debug\net9.0\EmployeeBonusCalculator.deps.json
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\bin\Debug\net9.0\EmployeeBonusCalculator.runtimeconfig.json
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\bin\Debug\net9.0\EmployeeBonusCalculator.dll
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\bin\Debug\net9.0\EmployeeBonusCalculator.pdb
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.dll
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\refint\EmployeeBonusCalculator.dll
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.pdb
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\EmployeeBonusCalculator.genruntimeconfig.cache
+D:\Learning\csharp-learning\Day03\EmployeeBonusCalculator\obj\Debug\net9.0\ref\EmployeeBonusCalculator.dll
