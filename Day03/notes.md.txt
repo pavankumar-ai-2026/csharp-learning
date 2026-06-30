@@ -1,0 +1,503 @@
+# Day 03 - Operators and Decision Making
+
+## Topics Covered
+
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- if
+- if-else
+- else-if
+- switch
+- Ternary Operator
+- Pre Increment
+- Post Increment
+
+---
+
+# What is an Operator?
+
+An operator is a symbol that performs an operation on one or more operands.
+
+Example:
+
+```csharp
+int sum = 10 + 20;
+```
+
+---
+
+# Types of Operators
+
+## 1. Arithmetic Operators
+
+| Operator | Description | Example |
+|----------|-------------|---------|
+| + | Addition | a + b |
+| - | Subtraction | a - b |
+| * | Multiplication | a * b |
+| / | Division | a / b |
+| % | Modulus | a % b |
+
+Example
+
+```csharp
+int a = 10;
+int b = 3;
+
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
+```
+
+---
+
+## 2. Assignment Operators
+
+```csharp
+int x = 10;
+
+x += 5;
+x -= 2;
+x *= 3;
+x /= 2;
+```
+
+---
+
+## 3. Comparison Operators
+
+| Operator | Meaning |
+|----------|---------|
+| == | Equal To |
+| != | Not Equal To |
+| > | Greater Than |
+| < | Less Than |
+| >= | Greater Than or Equal |
+| <= | Less Than or Equal |
+
+Example
+
+```csharp
+int age = 25;
+
+Console.WriteLine(age >= 18);
+```
+
+Output
+
+```
+True
+```
+
+---
+
+## 4. Logical Operators
+
+### AND (&&)
+
+Returns true only if both conditions are true.
+
+Example
+
+```csharp
+age >= 18 && salary > 30000
+```
+
+---
+
+### OR (||)
+
+Returns true if at least one condition is true.
+
+Example
+
+```csharp
+age >= 18 || salary > 30000
+```
+
+---
+
+### NOT (!)
+
+Reverses the boolean value.
+
+Example
+
+```csharp
+!isAdmin
+```
+
+---
+
+# Difference Between && and &
+
+## &&
+
+- Logical AND
+- Uses short-circuit evaluation
+- If the first condition is false, the second condition is not checked
+
+Example
+
+```csharp
+if (obj != null && obj.IsActive)
+{
+}
+```
+
+---
+
+## &
+
+- Bitwise AND
+- Can also work with boolean values
+- Always evaluates both conditions
+
+Using `&` with boolean expressions can cause unnecessary evaluation and may throw exceptions if the second condition accesses a null object.
+
+---
+
+# Decision Making
+
+## if
+
+```csharp
+if(age >= 18)
+{
+    Console.WriteLine("Eligible");
+}
+```
+
+---
+
+## if-else
+
+```csharp
+if(age >= 18)
+{
+    Console.WriteLine("Adult");
+}
+else
+{
+    Console.WriteLine("Minor");
+}
+```
+
+---
+
+## else-if
+
+```csharp
+if(marks >= 90)
+{
+    Console.WriteLine("Grade A");
+}
+else if(marks >= 75)
+{
+    Console.WriteLine("Grade B");
+}
+else
+{
+    Console.WriteLine("Grade C");
+}
+```
+
+---
+
+## switch
+
+```csharp
+string department = "IT";
+
+switch(department)
+{
+    case "HR":
+        Console.WriteLine("Human Resources");
+        break;
+
+    case "IT":
+        Console.WriteLine("Information Technology");
+        break;
+
+    default:
+        Console.WriteLine("Unknown Department");
+        break;
+}
+```
+
+---
+
+# Ternary Operator
+
+Syntax
+
+```csharp
+condition ? value1 : value2;
+```
+
+Example
+
+```csharp
+string result = age >= 18 ? "Adult" : "Minor";
+```
+
+---
+
+# Pre Increment (++x)
+
+First increases the value.
+
+Then returns the value.
+
+Example
+
+```csharp
+int x = 5;
+
+Console.WriteLine(++x);
+```
+
+Output
+
+```
+6
+```
+
+---
+
+# Post Increment (x++)
+
+Returns the current value.
+
+Then increases it.
+
+Example
+
+```csharp
+int x = 5;
+
+Console.WriteLine(x++);
+Console.WriteLine(x);
+```
+
+Output
+
+```
+5
+6
+```
+
+---
+
+# Common Mistakes
+
+## Wrong
+
+```csharp
+if(age = 18)
+```
+
+Correct
+
+```csharp
+if(age == 18)
+```
+
+---
+
+## Wrong
+
+Using `&` instead of `&&`
+
+Correct
+
+```csharp
+if(user != null && user.IsActive)
+```
+
+---
+
+# Real Project Example
+
+## Employee Bonus System
+
+Rules
+
+- Experience >= 10 → 20% Bonus
+- Experience >= 5 → 10% Bonus
+- Otherwise → 5%
+
+This is implemented using `if`, `else if`, and arithmetic operators.
+
+---
+
+# Interview Questions and Answers
+
+## 1. What is an operator?
+
+Answer:
+
+An operator is a symbol used to perform operations on variables and values.
+
+Example
+
+```csharp
+10 + 20
+```
+
+---
+
+## 2. Difference between = and ==
+
+Answer
+
+`=` assigns a value.
+
+```csharp
+age = 25;
+```
+
+`==` compares two values.
+
+```csharp
+age == 25;
+```
+
+---
+
+## 3. Difference between && and ||
+
+Answer
+
+`&&`
+
+Both conditions must be true.
+
+`||`
+
+At least one condition must be true.
+
+---
+
+## 4. Difference between && and &
+
+Answer
+
+`&&` uses short-circuit evaluation.
+
+`&` evaluates both conditions.
+
+---
+
+## 5. Difference between x++ and ++x
+
+Answer
+
+`x++`
+
+Returns the current value and then increments it.
+
+`++x`
+
+Increments the value first and then returns it.
+
+---
+
+## 6. What is a ternary operator?
+
+Answer
+
+A shorthand version of if-else.
+
+Example
+
+```csharp
+string status = age >= 18 ? "Adult" : "Minor";
+```
+
+---
+
+## 7. When should you use switch instead of if?
+
+Answer
+
+Use `switch` when comparing a single value against multiple fixed options.
+
+Use `if` for ranges or complex conditions.
+
+---
+
+# Quiz
+
+## Q1
+
+```csharp
+int x = 5;
+
+Console.WriteLine(x++);
+Console.WriteLine(x);
+```
+
+Answer
+
+```
+5
+6
+```
+
+---
+
+## Q2
+
+```csharp
+int x = 5;
+
+Console.WriteLine(++x);
+```
+
+Answer
+
+```
+6
+```
+
+---
+
+## Q3
+
+```csharp
+int a = 10;
+int b = 20;
+
+Console.WriteLine(a > 5 && b++ > 15);
+Console.WriteLine(b);
+```
+
+Answer
+
+```
+True
+21
+```
+
+---
+
+## Summary
+
+Today I learned:
+
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- if
+- if-else
+- switch
+- Ternary Operator
+- Pre Increment
+- Post Increment
+- Short-Circuit Evaluation
