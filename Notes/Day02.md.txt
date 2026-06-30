@@ -1,0 +1,177 @@
+# Day 02 - Variables and Data Types
+
+## What is a Variable?
+
+A variable is a named memory location used to store data that can change during program execution.
+
+Example:
+
+```csharp
+int age = 25;
+```
+
+---
+
+## Data Types
+
+### int
+
+Stores whole numbers.
+
+Example:
+
+```csharp
+int age = 25;
+```
+
+---
+
+### double
+
+Stores decimal numbers.
+
+Example:
+
+```csharp
+double height = 170.5;
+```
+
+---
+
+### decimal
+
+Stores high-precision decimal values.
+
+Used for:
+- Banking
+- Financial applications
+- Money calculations
+
+Example:
+
+```csharp
+decimal salary = 25000.50m;
+```
+
+---
+
+### bool
+
+Stores:
+
+- true
+- false
+
+Example:
+
+```csharp
+bool isPassed = true;
+```
+
+---
+
+### char
+
+Stores a single character.
+
+Example:
+
+```csharp
+char grade = 'A';
+```
+
+---
+
+### string
+
+Stores text.
+
+Example:
+
+```csharp
+string name = "Pavan";
+```
+
+---
+
+## Difference between int and double
+
+| int | double |
+|------|---------|
+| Whole numbers | Decimal numbers |
+| Example: 10 | Example: 10.5 |
+
+---
+
+## Difference between char and string
+
+| char | string |
+|------|---------|
+| Single character | Multiple characters |
+| 'A' | "Pavan" |
+
+---
+
+## Console.ReadLine()
+
+Reads user input from the keyboard.
+
+Returns:
+
+string
+
+Example:
+
+```csharp
+string name = Console.ReadLine();
+```
+
+---
+
+## Convert Methods
+
+```csharp
+Convert.ToInt32()
+
+Convert.ToDouble()
+
+Convert.ToDecimal()
+
+Convert.ToBoolean()
+```
+
+---
+
+## Why use decimal for money?
+
+decimal provides high precision and avoids rounding errors.
+
+---
+
+## Interview Questions
+
+1. What is a variable?
+2. Difference between int and double?
+3. Difference between char and string?
+4. What does Console.ReadLine() return?
+5. Why use decimal for money?
+6. What is bool?
+7. What is type conversion?
+8. Why use Convert.ToInt32()?
+
+---
+
+## Summary
+
+Today I learned:
+
+- Variables
+- Data Types
+- User Input
+- Type Conversion
+- String
+- char
+- int
+- double
+- decimal
+- bool
