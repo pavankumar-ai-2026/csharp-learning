@@ -1,0 +1,15 @@
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.AssemblyInfoInputs.cache
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.AssemblyInfo.cs
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.csproj.CoreCompileInputs.cache
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.sourcelink.json
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\bin\Debug\net9.0\StudentInformationSystem.exe
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\bin\Debug\net9.0\StudentInformationSystem.deps.json
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\bin\Debug\net9.0\StudentInformationSystem.runtimeconfig.json
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\bin\Debug\net9.0\StudentInformationSystem.dll
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\bin\Debug\net9.0\StudentInformationSystem.pdb
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.dll
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\refint\StudentInformationSystem.dll
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.pdb
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\StudentInformationSystem.genruntimeconfig.cache
+D:\Learning\csharp-learning\Day02\StudentInformationSystem\obj\Debug\net9.0\ref\StudentInformationSystem.dll
