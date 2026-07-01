@@ -1,0 +1,15 @@
+D:\Learning\csharp-learning\Day06\Arrays\bin\Debug\net9.0\Arrays.exe
+D:\Learning\csharp-learning\Day06\Arrays\bin\Debug\net9.0\Arrays.deps.json
+D:\Learning\csharp-learning\Day06\Arrays\bin\Debug\net9.0\Arrays.runtimeconfig.json
+D:\Learning\csharp-learning\Day06\Arrays\bin\Debug\net9.0\Arrays.dll
+D:\Learning\csharp-learning\Day06\Arrays\bin\Debug\net9.0\Arrays.pdb
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfoInputs.cache
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfo.cs
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.sourcelink.json
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.dll
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\refint\Arrays.dll
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.pdb
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\Arrays.genruntimeconfig.cache
+D:\Learning\csharp-learning\Day06\Arrays\obj\Debug\net9.0\ref\Arrays.dll
