@@ -1,0 +1,15 @@
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.AssemblyInfoInputs.cache
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.AssemblyInfo.cs
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.csproj.CoreCompileInputs.cache
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.sourcelink.json
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\bin\Debug\net9.0\EmplpoyeeUtilityApp.exe
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\bin\Debug\net9.0\EmplpoyeeUtilityApp.deps.json
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\bin\Debug\net9.0\EmplpoyeeUtilityApp.runtimeconfig.json
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\bin\Debug\net9.0\EmplpoyeeUtilityApp.dll
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\bin\Debug\net9.0\EmplpoyeeUtilityApp.pdb
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.dll
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\refint\EmplpoyeeUtilityApp.dll
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.pdb
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\EmplpoyeeUtilityApp.genruntimeconfig.cache
+D:\Learning\csharp-learning\Day05\EmplpoyeeUtilityApp\obj\Debug\net9.0\ref\EmplpoyeeUtilityApp.dll

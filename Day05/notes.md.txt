@@ -1,0 +1,503 @@
+# Day 05 - Methods (Functions) in C#
+
+## Topics Covered
+
+- What is a Method?
+- Method Syntax
+- Void Methods
+- Methods with Parameters
+- Methods with Return Values
+- Method Overloading
+- Static Methods
+- Calling Methods
+- Best Practices
+
+---
+
+# What is a Method?
+
+A method is a reusable block of code that performs a specific task.
+
+Instead of writing the same code multiple times, we create a method and call it whenever required.
+
+Example
+
+```csharp
+static void Welcome()
+{
+    Console.WriteLine("Welcome");
+}
+
+Welcome();
+```
+
+Output
+
+```
+Welcome
+```
+
+---
+
+# Why Do We Use Methods?
+
+- Code Reusability
+- Avoid Duplicate Code
+- Easy Maintenance
+- Better Readability
+- Easy Testing
+
+---
+
+# Method Syntax
+
+```csharp
+access_modifier return_type MethodName(parameters)
+{
+    // Code
+}
+```
+
+Example
+
+```csharp
+static void Display()
+{
+    Console.WriteLine("Hello");
+}
+```
+
+---
+
+# Void Method
+
+A void method performs an action but does not return any value.
+
+Example
+
+```csharp
+static void SayHello()
+{
+    Console.WriteLine("Hello Pavan");
+}
+
+SayHello();
+```
+
+---
+
+# Method with Parameters
+
+Parameters allow values to be passed into a method.
+
+Example
+
+```csharp
+static void DisplayEmployee(string name)
+{
+    Console.WriteLine(name);
+}
+
+DisplayEmployee("Pavan");
+DisplayEmployee("Ravi");
+```
+
+Output
+
+```
+Pavan
+Ravi
+```
+
+---
+
+# Method with Return Value
+
+A method can return a value using the `return` keyword.
+
+Example
+
+```csharp
+static int Add(int a, int b)
+{
+    return a + b;
+}
+
+int result = Add(10, 20);
+
+Console.WriteLine(result);
+```
+
+Output
+
+```
+30
+```
+
+---
+
+# Method with Multiple Parameters
+
+Example
+
+```csharp
+static void EmployeeDetails(string name, int age)
+{
+    Console.WriteLine($"Name : {name}");
+    Console.WriteLine($"Age : {age}");
+}
+
+EmployeeDetails("Pavan", 25);
+```
+
+---
+
+# Method Returning Decimal
+
+Example
+
+```csharp
+static decimal CalculateSalary(decimal salary, decimal bonus)
+{
+    return salary + bonus;
+}
+
+decimal total = CalculateSalary(30000, 5000);
+
+Console.WriteLine(total);
+```
+
+Output
+
+```
+35000
+```
+
+---
+
+# Boolean Method
+
+Example
+
+```csharp
+static bool IsAdult(int age)
+{
+    return age >= 18;
+}
+
+Console.WriteLine(IsAdult(20));
+```
+
+Output
+
+```
+True
+```
+
+---
+
+# Method Overloading
+
+Method overloading means creating multiple methods with the same name but different parameter lists.
+
+Example
+
+```csharp
+static int Add(int a, int b)
+{
+    return a + b;
+}
+
+static int Add(int a, int b, int c)
+{
+    return a + b + c;
+}
+```
+
+---
+
+# Static Method
+
+Today's examples use static methods.
+
+Example
+
+```csharp
+static void Welcome()
+{
+    Console.WriteLine("Welcome");
+}
+```
+
+Static methods belong to the class and can be called without creating an object.
+
+---
+
+# Enterprise Example
+
+In a Document Management System (DMS)
+
+Instead of writing validation code repeatedly
+
+```csharp
+if(file.Length == 0)
+{
+    Console.WriteLine("Invalid");
+}
+```
+
+Create a reusable method
+
+```csharp
+static bool ValidateDocument(long fileSize)
+{
+    return fileSize > 0;
+}
+```
+
+Usage
+
+```csharp
+if(ValidateDocument(file.Length))
+{
+    Console.WriteLine("Valid");
+}
+```
+
+---
+
+# Best Practices
+
+✅ Use meaningful method names
+
+```csharp
+CalculateSalary()
+
+GenerateReport()
+
+ValidateDocument()
+
+CheckUserPermission()
+```
+
+❌ Avoid names like
+
+```csharp
+Test()
+
+ABC()
+
+Method1()
+```
+
+---
+
+# Common Mistakes
+
+## Forgetting return
+
+Wrong
+
+```csharp
+static int Add(int a, int b)
+{
+
+}
+```
+
+Correct
+
+```csharp
+return a + b;
+```
+
+---
+
+## Wrong Return Type
+
+Wrong
+
+```csharp
+static void Add()
+{
+    return 10;
+}
+```
+
+Correct
+
+```csharp
+static int Add()
+{
+    return 10;
+}
+```
+
+---
+
+# Interview Questions and Answers
+
+## 1. What is a Method?
+
+Answer
+
+A method is a reusable block of code used to perform a specific task.
+
+---
+
+## 2. Why do we use methods?
+
+Answer
+
+- Reusability
+- Readability
+- Easy Maintenance
+- Less Duplicate Code
+
+---
+
+## 3. Difference between void and return type methods?
+
+Void
+
+- Does not return a value.
+
+Return Type
+
+- Returns a value using the `return` statement.
+
+---
+
+## 4. What is Method Overloading?
+
+Answer
+
+Creating multiple methods with the same name but different parameter lists.
+
+---
+
+## 5. Can a method return multiple values?
+
+Answer
+
+Yes, by using tuples or `out` parameters.
+
+---
+
+## 6. What is a parameter?
+
+Answer
+
+A parameter is a variable declared in the method definition that receives a value when the method is called.
+
+Example
+
+```csharp
+static void Display(string name)
+```
+
+Here, `name` is the parameter.
+
+---
+
+## 7. What is an argument?
+
+Answer
+
+An argument is the actual value passed to the method.
+
+Example
+
+```csharp
+Display("Pavan");
+```
+
+"Pavan" is the argument.
+
+---
+
+# Output Prediction
+
+## Q1
+
+```csharp
+static void Display()
+{
+    Console.WriteLine("Hello");
+}
+
+Display();
+```
+
+Output
+
+```
+Hello
+```
+
+---
+
+## Q2
+
+```csharp
+static int Add(int a, int b)
+{
+    return a + b;
+}
+
+Console.WriteLine(Add(10, 20));
+```
+
+Output
+
+```
+30
+```
+
+---
+
+## Q3
+
+```csharp
+static bool IsAdult(int age)
+{
+    return age >= 18;
+}
+
+Console.WriteLine(IsAdult(15));
+```
+
+Output
+
+```
+False
+```
+
+---
+
+# Key Points to Remember
+
+- A method performs a specific task.
+- Use methods to avoid duplicate code.
+- `void` methods do not return values.
+- Return type methods return a value.
+- Parameters receive values.
+- Arguments are values passed during the method call.
+- Use meaningful method names.
+- Enterprise applications are built using reusable methods.
+
+---
+
+# Summary
+
+Today I learned
+
+- Methods
+- Void Methods
+- Return Type Methods
+- Parameters
+- Arguments
+- Method Overloading
+- Static Methods
+- Best Practices
+- Enterprise Usage
